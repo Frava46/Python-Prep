@@ -7,14 +7,15 @@
 
 # In[7]:
 
-
+num = 5
+print(num)
 
 
 # 2) Imprimir el tipo de dato de la constante 8.5
 
 # In[3]:
 
-
+print(8.5)
 
 
 
@@ -22,7 +23,7 @@
 
 # In[8]:
 
-
+type(num)
 
 
 
@@ -30,14 +31,14 @@
 
 # In[2]:
 
-
+nom = "Dilan"
 
 
 # 5) Crear una variable que contenga un número complejo
 
 # In[3]:
 
-
+complejo = 5 + 5j
 
 
 
@@ -45,14 +46,13 @@
 
 # In[4]:
 
-
+type(complejo)
 
 
 
 # 7) Crear una variable que contenga el valor del número Pi redondeado a 4 decimales
 
 # In[1]:
-
 
 pi = 3.1416
 
@@ -62,13 +62,15 @@ pi = 3.1416
 # In[3]:
 
 
-
+var1 = "True"
+var2 = True
 
 
 # 9) Imprimir el tipo de dato correspondientes a las variables creadas en el punto 8
 
 # In[5]:
 
+print(type(var1 ), type(var2 ))
 
 
 
@@ -77,15 +79,16 @@ pi = 3.1416
 
 # In[1]:
 
-
+sum = 5 + 5.5
 
 
 
 # 11) Realizar una operación de suma de números complejos
 
 # In[2]:
-
-
+comp1 = 1 + 4j
+comp2 = 1 + 4j
+print(comp1 + comp2)
 
 
 
@@ -93,7 +96,8 @@ pi = 3.1416
 
 # In[4]:
 
-
+c = comp1 + 1.61
+print(c)
 
 
 
@@ -101,7 +105,7 @@ pi = 3.1416
 
 # In[5]:
 
-
+print(3*3)
 
 
 
@@ -109,7 +113,7 @@ pi = 3.1416
 
 # In[6]:
 
-
+print(2**8)
 
 
 # 15) Obtener el cociente de la división de 27 entre 4 en una variable y luego mostrarla
@@ -117,14 +121,14 @@ pi = 3.1416
 # In[8]:
 
 
-
+print(27/4)
 
 
 # 16) De la división anterior solamente mostrar la parte entera
 
 # In[9]:
 
-
+print (27//4)
 
 
 
@@ -132,7 +136,7 @@ pi = 3.1416
 
 # In[1]:
 
-
+print(27%4)
 
 
 
@@ -140,7 +144,7 @@ pi = 3.1416
 
 # In[2]:
 
-
+print(6*4+3)
 
 
 
@@ -148,15 +152,16 @@ pi = 3.1416
 
 # In[3]:
 
-
-
+str1 = "LA VACA"
+str2 = " LOLA"
+print(str1 + str2)
 
 
 # 20) Evaluar si "2" es igual a 2. ¿Por qué ocurre eso?
 
 # In[4]:
 
-
+2 == "2"
 
 
 
@@ -165,14 +170,14 @@ pi = 3.1416
 # In[11]:
 
 
-
+2 == int("2")
 
 
 # 22) ¿Por qué arroja error el siguiente cambio de tipo de datos? a = float('3,8')
 
 # In[12]:
 
-
+a = str('3.8')
 
 
 
@@ -181,14 +186,16 @@ pi = 3.1416
 # In[15]:
 
 
-
+valor = 3
+valor -=1
+print (valor)
 
 
 # 24) Realizar la operacion 1 << 2 ¿Por qué da ese resultado? ¿Qué es el sistema de numeración binario?
 
 # In[29]:
 
-
+1<<2
 
 
 
@@ -197,6 +204,7 @@ pi = 3.1416
 # In[23]:
 
 
+float(2) + float("2")
 
 
 
@@ -205,5 +213,9 @@ pi = 3.1416
 
 # In[30]:
 
+last = "Yo tengo "
+numl = 4
+last2 = " pesos"
 
-
+print( last * 2 + str(numl) + last2)
+# %%
